@@ -1,0 +1,286 @@
+﻿body {
+    font-family:'Segoe UI';
+    background-color: white;
+    position: absolute;
+}
+
+.container {
+    width:100%;
+
+}
+article{
+    padding:30px;
+    padding-left: 300px;
+   
+   width:1180px;
+   min-height: 400px;
+   float:right;
+}
+header{
+    padding:10px;
+    color:black;
+    text-align:right;
+    
+    min-width: 500px;
+
+}
+.social
+{
+    padding:10px;
+    color:white;
+    clear:left;
+    text-align:left;
+    
+   
+}
+
+footer {
+        color:black;
+        clear:left;
+        text-align:center;
+  
+}
+
+nav{
+    
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:left;
+    max-width:40%;
+    margin:0;
+    padding:5px;
+    position: fixed;
+
+}
+nav ul{
+   
+    list-style-type: none;
+}
+nav ul li{
+    list-style: none; /* bỏ dấu chấm mặc định của li */
+    /* kẻ đường bên trái và bên phải của li */
+    list-style-type: none;
+    padding-left: 0;
+   
+
+}
+nav ul li a{
+    padding: 0px;
+   
+    text-decoration:none;
+    list-style-type:none;
+    list-style: none;
+    padding-left: 0;
+    color:black;
+}
+nav ul li:hover{
+    color:red;
+    display:block;
+}
+#cot1,.flip{
+    font-size: 16px;
+}
+#cot1{
+    display:none;
+    padding-left: 10px;
+}
+.dangnhap {
+    float:right;
+    
+}
+.logo{
+    width:250x;
+    height:101px;
+    text-align: left;
+    margin-top: auto;
+}
+
+.sanpham{
+    
+    text-align: left;
+    display: flex;
+    float:left;
+}
+
+.sanpham a{
+    width:300px;
+    height:350px;
+    color:black;
+    padding: 20px;
+    text-decoration: none;
+    border:dotted thin white;
+    line-height: 20%;
+}
+
+.sanpham a:hover{
+    border: dotted thin grey;
+    text-decoration: none;
+}
+.sanphamtrangchu{
+    text-align:center;
+    display:flex;
+    float:left;
+}
+.sanphamtrangchu a{
+    height: 390;
+    width:290;
+    color:gray;
+    padding:0;
+    text-decoration: none;
+    
+    line-height: 30%;
+}
+.sanphamtrangchu a:hover
+{
+    color:black;
+    text-decoration: none;
+}
+.btn-box {
+    text-align:center;
+    margin-top:30px;
+}
+    .btn-box button {
+        padding:7.5px 35px;
+        border-radius:2px;
+        background-color:black;
+        color:white;
+        border:none;
+        outline:none;
+        width:270px;
+    }
+.dangky {
+     padding:4.5px 105px;
+        border-radius:2px;
+        background-color:black;
+        color:white;
+        border:none;
+        outline:none;
+        width:270px;
+        margin-bottom:30px;
+        text-decoration:none;
+        font-size:14px;
+}
+
+.input-box {
+    margin-bottom:30px;
+}
+    .input-box input {
+        padding:7.5px 35px;
+        width:200px;
+        border: 1px solid black;
+        outline:none;
+    }
+
+.quenmk a{
+  text-decoration:none;
+  color:black;
+  text-align:left;
+}
+.dangnhap {
+    float:right;
+    
+}
+form{
+    text-align: center;
+}
+.search-field {width: 60%;display: block;margin:auto;}
+.luachonsapxep
+{
+    text-align: right;
+}
+.lienhe{
+    display: flex;
+}
+.saleoff{
+    color:red;
+position: absolute;
+padding-top: 0px;
+}
+.khungsp{
+display:flex;
+width: 100%;
+}
+.thongtinsp{
+width: 60%;
+padding: 20px;
+}
+.khoangtrang{
+    position: fixed;
+    width: 60%;
+    z-index: 999;
+}
+.chitietsp{
+width:25%;
+padding: 20px;
+line-height:normal;
+overflow: hidden;
+position:fixed;
+
+float:left;
+z-index:999;
+
+
+}
+.themvaogio {
+    text-align:center;
+    margin-top:30px;
+}
+    .themvaogio button {
+        padding:7.5px 35px;
+        border-radius:2px;
+        background-color:black;
+        color:white;
+        border:none;
+        outline:none;
+        width:100%;
+        height: 40px;
+    }
+    .bangsize{
+        border-spacing: 0px;
+        width: 500px;
+        border:solid thin black;
+    }
+    .sanphamlienquan{
+        text-align:left;
+        display:flex;
+        float:left;
+    }
+    .sanphamlienquan a{
+        height: 390;
+        width:290;
+        color:gray;
+        padding:0;
+        text-decoration: none;
+        
+        line-height: 30%;
+    }
+    .sanphamlienquan a:hover
+    {
+        color:black;
+        text-decoration: none;
+    }
+    .khunggiohang{
+        text-align:center;
+        padding: 30px;
+    }
+    .thanhtoan
+    {
+        text-align: right;
+    }
+    .btn-thanhtoan {
+        text-align:right;
+        margin-top:30px;
+        display: flex;
+        float:right;
+        padding:10px;
+    }
+        .btn-thanhtoan button {
+            padding:7.5px 35px;
+            border-radius:2px;
+            background-color:black;
+            color:white;
+            border:none;
+            outline:none;
+            width:100%;
+            height: 40px;
+        }
